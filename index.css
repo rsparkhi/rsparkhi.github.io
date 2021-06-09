@@ -7,8 +7,11 @@
 }
 
 body {
-    background-image: url("resources/ABSTRACT_BACKGROUND_01.png");
-    background-repeat: no-repeat;
+    background: url(resources/ABSTRACT_BACKGROUND_01.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 img {
